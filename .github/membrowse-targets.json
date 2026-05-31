@@ -1,0 +1,2288 @@
+[
+  {
+    "target_name": "100_250",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_100_250",
+    "elf": "build/100_250/100_250.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/100_250/100_250.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "100_250_mkiii",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_100_250_mkiii",
+    "elf": "build/100_250_mkiii/100_250_mkiii.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/100_250_mkiii/100_250_mkiii.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "100_250_mkiii_no_limits",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_100_250_mkiii_no_limits",
+    "elf": "build/100_250_mkiii_no_limits/100_250_mkiii_no_limits.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/100_250_mkiii_no_limits/100_250_mkiii_no_limits.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "100_250_no_limits",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_100_250_no_limits",
+    "elf": "build/100_250_no_limits/100_250_no_limits.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/100_250_no_limits/100_250_no_limits.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "100_500",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_100_500",
+    "elf": "build/100_500/100_500.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/100_500/100_500.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "100_500_no_limits",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_100_500_no_limits",
+    "elf": "build/100_500_no_limits/100_500_no_limits.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/100_500_no_limits/100_500_no_limits.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "140_300",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_140_300",
+    "elf": "build/140_300/140_300.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/140_300/140_300.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "40",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_40",
+    "elf": "build/40/40.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/40/40.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "410",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_410",
+    "elf": "build/410/410.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/410/410.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "410_0005ohm",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_410_0005ohm",
+    "elf": "build/410_0005ohm/410_0005ohm.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/410_0005ohm/410_0005ohm.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "410_005ohm",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_410_005ohm",
+    "elf": "build/410_005ohm/410_005ohm.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/410_005ohm/410_005ohm.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "410_no_limits",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_410_no_limits",
+    "elf": "build/410_no_limits/410_no_limits.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/410_no_limits/410_no_limits.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "45",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_45",
+    "elf": "build/45/45.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/45/45.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "46",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_46",
+    "elf": "build/46/46.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/46/46.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "46_0005ohm",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_46_0005ohm",
+    "elf": "build/46_0005ohm/46_0005ohm.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/46_0005ohm/46_0005ohm.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "46_33k",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_46_33k",
+    "elf": "build/46_33k/46_33k.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/46_33k/46_33k.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "48",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_48",
+    "elf": "build/48/48.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/48/48.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "49",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_49",
+    "elf": "build/49/49.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/49/49.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "60",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_60",
+    "elf": "build/60/60.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/60/60.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "60_75",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_60_75",
+    "elf": "build/60_75/60_75.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/60_75/60_75.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "60_75_mk2",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_60_75_mk2",
+    "elf": "build/60_75_mk2/60_75_mk2.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/60_75_mk2/60_75_mk2.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "60_75_mk2_no_limits",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_60_75_mk2_no_limits",
+    "elf": "build/60_75_mk2_no_limits/60_75_mk2_no_limits.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/60_75_mk2_no_limits/60_75_mk2_no_limits.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "60_75_no_limits",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_60_75_no_limits",
+    "elf": "build/60_75_no_limits/60_75_no_limits.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/60_75_no_limits/60_75_no_limits.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "60_mk3",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_60_mk3",
+    "elf": "build/60_mk3/60_mk3.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/60_mk3/60_mk3.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "60_mk3_no_limits",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_60_mk3_no_limits",
+    "elf": "build/60_mk3_no_limits/60_mk3_no_limits.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/60_mk3_no_limits/60_mk3_no_limits.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "60_mk4",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_60_mk4",
+    "elf": "build/60_mk4/60_mk4.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/60_mk4/60_mk4.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "60_mk4_no_limits",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_60_mk4_no_limits",
+    "elf": "build/60_mk4_no_limits/60_mk4_no_limits.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/60_mk4_no_limits/60_mk4_no_limits.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "60_mk5",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_60_mk5",
+    "elf": "build/60_mk5/60_mk5.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/60_mk5/60_mk5.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "60_mk5_no_limits",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_60_mk5_no_limits",
+    "elf": "build/60_mk5_no_limits/60_mk5_no_limits.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/60_mk5_no_limits/60_mk5_no_limits.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "60_mk6",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_60_mk6",
+    "elf": "build/60_mk6/60_mk6.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/60_mk6/60_mk6.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "60_mk6_hp",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_60_mk6_hp",
+    "elf": "build/60_mk6_hp/60_mk6_hp.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/60_mk6_hp/60_mk6_hp.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "60_mk6_hp_no_limits",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_60_mk6_hp_no_limits",
+    "elf": "build/60_mk6_hp_no_limits/60_mk6_hp_no_limits.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/60_mk6_hp_no_limits/60_mk6_hp_no_limits.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "60_mk6_max",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_60_mk6_max",
+    "elf": "build/60_mk6_max/60_mk6_max.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/60_mk6_max/60_mk6_max.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "60_mk6_no_limits",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_60_mk6_no_limits",
+    "elf": "build/60_mk6_no_limits/60_mk6_no_limits.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/60_mk6_no_limits/60_mk6_no_limits.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "60_no_limits",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_60_no_limits",
+    "elf": "build/60_no_limits/60_no_limits.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/60_no_limits/60_no_limits.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "60v2_alva",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_60v2_alva",
+    "elf": "build/60v2_alva/60v2_alva.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/60v2_alva/60v2_alva.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "60v2_alva_mk1",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_60v2_alva_mk1",
+    "elf": "build/60v2_alva_mk1/60v2_alva_mk1.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/60v2_alva_mk1/60v2_alva_mk1.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "60v2_alva_mk2",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_60v2_alva_mk2",
+    "elf": "build/60v2_alva_mk2/60v2_alva_mk2.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/60v2_alva_mk2/60v2_alva_mk2.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "75_100",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_75_100",
+    "elf": "build/75_100/75_100.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/75_100/75_100.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "75_100_V2",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_75_100_V2",
+    "elf": "build/75_100_V2/75_100_V2.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/75_100_V2/75_100_V2.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "75_100_V2_0005ohm",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_75_100_V2_0005ohm",
+    "elf": "build/75_100_V2_0005ohm/75_100_V2_0005ohm.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/75_100_V2_0005ohm/75_100_V2_0005ohm.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "75_100_V2_005ohm",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_75_100_V2_005ohm",
+    "elf": "build/75_100_V2_005ohm/75_100_V2_005ohm.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/75_100_V2_005ohm/75_100_V2_005ohm.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "75_100_V2_no_limits",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_75_100_V2_no_limits",
+    "elf": "build/75_100_V2_no_limits/75_100_V2_no_limits.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/75_100_V2_no_limits/75_100_V2_no_limits.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "75_100_no_limits",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_75_100_no_limits",
+    "elf": "build/75_100_no_limits/75_100_no_limits.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/75_100_no_limits/75_100_no_limits.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "75_300",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_75_300",
+    "elf": "build/75_300/75_300.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/75_300/75_300.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "75_300_mkiv",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_75_300_mkiv",
+    "elf": "build/75_300_mkiv/75_300_mkiv.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/75_300_mkiv/75_300_mkiv.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "75_300_mkiv_no_limits",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_75_300_mkiv_no_limits",
+    "elf": "build/75_300_mkiv_no_limits/75_300_mkiv_no_limits.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/75_300_mkiv_no_limits/75_300_mkiv_no_limits.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "75_300_no_limits",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_75_300_no_limits",
+    "elf": "build/75_300_no_limits/75_300_no_limits.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/75_300_no_limits/75_300_no_limits.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "75_300_r2",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_75_300_r2",
+    "elf": "build/75_300_r2/75_300_r2.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/75_300_r2/75_300_r2.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "75_300_r2_no_limits",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_75_300_r2_no_limits",
+    "elf": "build/75_300_r2_no_limits/75_300_r2_no_limits.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/75_300_r2_no_limits/75_300_r2_no_limits.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "75_300_r3",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_75_300_r3",
+    "elf": "build/75_300_r3/75_300_r3.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/75_300_r3/75_300_r3.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "75_300_r3_no_limits",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_75_300_r3_no_limits",
+    "elf": "build/75_300_r3_no_limits/75_300_r3_no_limits.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/75_300_r3_no_limits/75_300_r3_no_limits.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "75_600",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_75_600",
+    "elf": "build/75_600/75_600.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/75_600/75_600.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "75_600_no_limits",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_75_600_no_limits",
+    "elf": "build/75_600_no_limits/75_600_no_limits.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/75_600_no_limits/75_600_no_limits.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "Cheap_FOCer_2",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_Cheap_FOCer_2",
+    "elf": "build/Cheap_FOCer_2/Cheap_FOCer_2.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/Cheap_FOCer_2/Cheap_FOCer_2.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "Cheap_FOCer_2_V09",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_Cheap_FOCer_2_V09",
+    "elf": "build/Cheap_FOCer_2_V09/Cheap_FOCer_2_V09.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/Cheap_FOCer_2_V09/Cheap_FOCer_2_V09.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "Cheap_FOCer_2_V09_no_limits",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_Cheap_FOCer_2_V09_no_limits",
+    "elf": "build/Cheap_FOCer_2_V09_no_limits/Cheap_FOCer_2_V09_no_limits.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/Cheap_FOCer_2_V09_no_limits/Cheap_FOCer_2_V09_no_limits.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "Cheap_FOCer_2_no_limits",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_Cheap_FOCer_2_no_limits",
+    "elf": "build/Cheap_FOCer_2_no_limits/Cheap_FOCer_2_no_limits.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/Cheap_FOCer_2_no_limits/Cheap_FOCer_2_no_limits.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "ENNOID_150V_mk8",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_ENNOID_150V_mk8",
+    "elf": "build/ENNOID_150V_mk8/ENNOID_150V_mk8.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/ENNOID_150V_mk8/ENNOID_150V_mk8.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "FOCSTrot_V3",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_FOCSTrot_V3",
+    "elf": "build/FOCSTrot_V3/FOCSTrot_V3.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/FOCSTrot_V3/FOCSTrot_V3.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "FOCSTrot_V4",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_FOCSTrot_V4",
+    "elf": "build/FOCSTrot_V4/FOCSTrot_V4.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/FOCSTrot_V4/FOCSTrot_V4.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "JetFleetF6_20s",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_JetFleetF6_20s",
+    "elf": "build/JetFleetF6_20s/JetFleetF6_20s.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/JetFleetF6_20s/JetFleetF6_20s.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "JetFleetF6_24s",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_JetFleetF6_24s",
+    "elf": "build/JetFleetF6_24s/JetFleetF6_24s.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/JetFleetF6_24s/JetFleetF6_24s.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "JetFleetF6_32s",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_JetFleetF6_32s",
+    "elf": "build/JetFleetF6_32s/JetFleetF6_32s.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/JetFleetF6_32s/JetFleetF6_32s.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "Lightning400",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_Lightning400",
+    "elf": "build/Lightning400/Lightning400.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/Lightning400/Lightning400.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "Little_FOCer",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_Little_FOCer",
+    "elf": "build/Little_FOCer/Little_FOCer.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/Little_FOCer/Little_FOCer.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "Little_FOCer_V3",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_Little_FOCer_V3",
+    "elf": "build/Little_FOCer_V3/Little_FOCer_V3.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/Little_FOCer_V3/Little_FOCer_V3.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "Little_FOCer_V3_1",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_Little_FOCer_V3_1",
+    "elf": "build/Little_FOCer_V3_1/Little_FOCer_V3_1.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/Little_FOCer_V3_1/Little_FOCer_V3_1.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "Little_FOCer_V4",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_Little_FOCer_V4",
+    "elf": "build/Little_FOCer_V4/Little_FOCer_V4.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/Little_FOCer_V4/Little_FOCer_V4.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "RSR_DD_V1",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_RSR_DD_V1",
+    "elf": "build/RSR_DD_V1/RSR_DD_V1.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/RSR_DD_V1/RSR_DD_V1.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "RSR_DD_V1_005",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_RSR_DD_V1_005",
+    "elf": "build/RSR_DD_V1_005/RSR_DD_V1_005.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/RSR_DD_V1_005/RSR_DD_V1_005.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "RSR_DD_V2",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_RSR_DD_V2",
+    "elf": "build/RSR_DD_V2/RSR_DD_V2.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/RSR_DD_V2/RSR_DD_V2.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "RSR_DD_V2.1",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_RSR_DD_V2.1",
+    "elf": "build/RSR_DD_V2.1/RSR_DD_V2.1.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/RSR_DD_V2.1/RSR_DD_V2.1.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "TRONIC_250R",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_TRONIC_250R",
+    "elf": "build/TRONIC_250R/TRONIC_250R.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/TRONIC_250R/TRONIC_250R.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "Thor300_20s",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_Thor300_20s",
+    "elf": "build/Thor300_20s/Thor300_20s.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/Thor300_20s/Thor300_20s.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "Thor301",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_Thor301",
+    "elf": "build/Thor301/Thor301.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/Thor301/Thor301.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "Thor400",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_Thor400",
+    "elf": "build/Thor400/Thor400.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/Thor400/Thor400.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "Thor400v2",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_Thor400v2",
+    "elf": "build/Thor400v2/Thor400v2.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/Thor400v2/Thor400v2.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "a100s_v4",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_a100s_v4",
+    "elf": "build/a100s_v4/a100s_v4.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/a100s_v4/a100s_v4.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "a200s_v2.1",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_a200s_v2.1",
+    "elf": "build/a200s_v2.1/a200s_v2.1.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/a200s_v2.1/a200s_v2.1.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "a200s_v2.2",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_a200s_v2.2",
+    "elf": "build/a200s_v2.2/a200s_v2.2.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/a200s_v2.2/a200s_v2.2.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "a200s_v3",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_a200s_v3",
+    "elf": "build/a200s_v3/a200s_v3.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/a200s_v3/a200s_v3.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "a200s_v4",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_a200s_v4",
+    "elf": "build/a200s_v4/a200s_v4.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/a200s_v4/a200s_v4.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "a200s_v41",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_a200s_v41",
+    "elf": "build/a200s_v41/a200s_v41.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/a200s_v41/a200s_v41.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "a50s_dual_12s",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_a50s_dual_12s",
+    "elf": "build/a50s_dual_12s/a50s_dual_12s.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/a50s_dual_12s/a50s_dual_12s.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "a50s_dual_8s",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_a50s_dual_8s",
+    "elf": "build/a50s_dual_8s/a50s_dual_8s.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/a50s_dual_8s/a50s_dual_8s.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "a50s_v22_12s",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_a50s_v22_12s",
+    "elf": "build/a50s_v22_12s/a50s_v22_12s.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/a50s_v22_12s/a50s_v22_12s.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "a50s_v22_12s_hg",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_a50s_v22_12s_hg",
+    "elf": "build/a50s_v22_12s_hg/a50s_v22_12s_hg.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/a50s_v22_12s_hg/a50s_v22_12s_hg.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "a50s_v22_6s",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_a50s_v22_6s",
+    "elf": "build/a50s_v22_6s/a50s_v22_6s.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/a50s_v22_6s/a50s_v22_6s.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "a50s_v22_6s_hg",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_a50s_v22_6s_hg",
+    "elf": "build/a50s_v22_6s_hg/a50s_v22_6s_hg.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/a50s_v22_6s_hg/a50s_v22_6s_hg.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "a50s_v23_12s",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_a50s_v23_12s",
+    "elf": "build/a50s_v23_12s/a50s_v23_12s.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/a50s_v23_12s/a50s_v23_12s.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "a50s_v23_20s",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_a50s_v23_20s",
+    "elf": "build/a50s_v23_20s/a50s_v23_20s.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/a50s_v23_20s/a50s_v23_20s.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "a50s_v23_6s",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_a50s_v23_6s",
+    "elf": "build/a50s_v23_6s/a50s_v23_6s.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/a50s_v23_6s/a50s_v23_6s.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "a50s_v23_8s",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_a50s_v23_8s",
+    "elf": "build/a50s_v23_8s/a50s_v23_8s.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/a50s_v23_8s/a50s_v23_8s.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "a50s_v23c_12s",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_a50s_v23c_12s",
+    "elf": "build/a50s_v23c_12s/a50s_v23c_12s.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/a50s_v23c_12s/a50s_v23c_12s.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "a50s_v23c_8s",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_a50s_v23c_8s",
+    "elf": "build/a50s_v23c_8s/a50s_v23c_8s.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/a50s_v23c_8s/a50s_v23c_8s.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "adv200",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_adv200",
+    "elf": "build/adv200/adv200.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/adv200/adv200.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "adv500",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_adv500",
+    "elf": "build/adv500/adv500.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/adv500/adv500.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "axiom",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_axiom",
+    "elf": "build/axiom/axiom.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/axiom/axiom.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "basic",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_basic",
+    "elf": "build/basic/basic.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/basic/basic.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "basic_025",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_basic_025",
+    "elf": "build/basic_025/basic_025.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/basic_025/basic_025.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "basic_035",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_basic_035",
+    "elf": "build/basic_035/basic_035.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/basic_035/basic_035.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "basic_035_no_limits",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_basic_035_no_limits",
+    "elf": "build/basic_035_no_limits/basic_035_no_limits.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/basic_035_no_limits/basic_035_no_limits.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "classic",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_classic",
+    "elf": "build/classic/classic.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/classic/classic.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "classic_no_limits",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_classic_no_limits",
+    "elf": "build/classic_no_limits/classic_no_limits.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/classic_no_limits/classic_no_limits.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "classicp",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_classicp",
+    "elf": "build/classicp/classicp.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/classicp/classicp.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "classicp_no_limits",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_classicp_no_limits",
+    "elf": "build/classicp_no_limits/classicp_no_limits.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/classicp_no_limits/classicp_no_limits.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "duet",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_duet",
+    "elf": "build/duet/duet.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/duet/duet.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "duet_no_limits",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_duet_no_limits",
+    "elf": "build/duet_no_limits/duet_no_limits.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/duet_no_limits/duet_no_limits.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "duet_xs100",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_duet_xs100",
+    "elf": "build/duet_xs100/duet_xs100.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/duet_xs100/duet_xs100.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "duet_xs100_no_limits",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_duet_xs100_no_limits",
+    "elf": "build/duet_xs100_no_limits/duet_xs100_no_limits.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/duet_xs100_no_limits/duet_xs100_no_limits.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "duet_xs60",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_duet_xs60",
+    "elf": "build/duet_xs60/duet_xs60.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/duet_xs60/duet_xs60.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "duet_xs60_no_limits",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_duet_xs60_no_limits",
+    "elf": "build/duet_xs60_no_limits/duet_xs60_no_limits.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/duet_xs60_no_limits/duet_xs60_no_limits.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "edu",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_edu",
+    "elf": "build/edu/edu.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/edu/edu.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "edu_no_limits",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_edu_no_limits",
+    "elf": "build/edu_no_limits/edu_no_limits.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/edu_no_limits/edu_no_limits.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "example",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_example",
+    "elf": "build/example/example.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/example/example.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "flipsky_110_100",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_flipsky_110_100",
+    "elf": "build/flipsky_110_100/flipsky_110_100.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/flipsky_110_100/flipsky_110_100.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "flipsky_110_100_no_limits",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_flipsky_110_100_no_limits",
+    "elf": "build/flipsky_110_100_no_limits/flipsky_110_100_no_limits.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/flipsky_110_100_no_limits/flipsky_110_100_no_limits.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "flipsky_110_200",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_flipsky_110_200",
+    "elf": "build/flipsky_110_200/flipsky_110_200.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/flipsky_110_200/flipsky_110_200.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "flipsky_110_200_no_limits",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_flipsky_110_200_no_limits",
+    "elf": "build/flipsky_110_200_no_limits/flipsky_110_200_no_limits.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/flipsky_110_200_no_limits/flipsky_110_200_no_limits.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "flipsky_110_300",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_flipsky_110_300",
+    "elf": "build/flipsky_110_300/flipsky_110_300.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/flipsky_110_300/flipsky_110_300.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "flipsky_110_300_no_limits",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_flipsky_110_300_no_limits",
+    "elf": "build/flipsky_110_300_no_limits/flipsky_110_300_no_limits.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/flipsky_110_300_no_limits/flipsky_110_300_no_limits.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "flipsky_110_400",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_flipsky_110_400",
+    "elf": "build/flipsky_110_400/flipsky_110_400.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/flipsky_110_400/flipsky_110_400.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "flipsky_110_400_no_limits",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_flipsky_110_400_no_limits",
+    "elf": "build/flipsky_110_400_no_limits/flipsky_110_400_no_limits.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/flipsky_110_400_no_limits/flipsky_110_400_no_limits.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "flipsky_412",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_flipsky_412",
+    "elf": "build/flipsky_412/flipsky_412.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/flipsky_412/flipsky_412.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "flipsky_412_no_limits",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_flipsky_412_no_limits",
+    "elf": "build/flipsky_412_no_limits/flipsky_412_no_limits.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/flipsky_412_no_limits/flipsky_412_no_limits.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "flipsky_60",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_flipsky_60",
+    "elf": "build/flipsky_60/flipsky_60.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/flipsky_60/flipsky_60.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "flipsky_60_mk5",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_flipsky_60_mk5",
+    "elf": "build/flipsky_60_mk5/flipsky_60_mk5.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/flipsky_60_mk5/flipsky_60_mk5.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "flipsky_60_mk5_no_limits",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_flipsky_60_mk5_no_limits",
+    "elf": "build/flipsky_60_mk5_no_limits/flipsky_60_mk5_no_limits.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/flipsky_60_mk5_no_limits/flipsky_60_mk5_no_limits.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "flipsky_60_no_limits",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_flipsky_60_no_limits",
+    "elf": "build/flipsky_60_no_limits/flipsky_60_no_limits.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/flipsky_60_no_limits/flipsky_60_no_limits.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "flipsky_75",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_flipsky_75",
+    "elf": "build/flipsky_75/flipsky_75.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/flipsky_75/flipsky_75.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "flipsky_75_450",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_flipsky_75_450",
+    "elf": "build/flipsky_75_450/flipsky_75_450.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/flipsky_75_450/flipsky_75_450.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "flipsky_75_450_no_limits",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_flipsky_75_450_no_limits",
+    "elf": "build/flipsky_75_450_no_limits/flipsky_75_450_no_limits.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/flipsky_75_450_no_limits/flipsky_75_450_no_limits.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "flipsky_75_no_limits",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_flipsky_75_no_limits",
+    "elf": "build/flipsky_75_no_limits/flipsky_75_no_limits.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/flipsky_75_no_limits/flipsky_75_no_limits.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "fsesc_75_200_alu",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_fsesc_75_200_alu",
+    "elf": "build/fsesc_75_200_alu/fsesc_75_200_alu.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/fsesc_75_200_alu/fsesc_75_200_alu.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "fsesc_75_200_alu_no_limits",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_fsesc_75_200_alu_no_limits",
+    "elf": "build/fsesc_75_200_alu_no_limits/fsesc_75_200_alu_no_limits.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/fsesc_75_200_alu_no_limits/fsesc_75_200_alu_no_limits.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "fsesc_75_300",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_fsesc_75_300",
+    "elf": "build/fsesc_75_300/fsesc_75_300.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/fsesc_75_300/fsesc_75_300.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "gesc",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_gesc",
+    "elf": "build/gesc/gesc.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/gesc/gesc.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "go_foc_dv6_pro",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_go_foc_dv6_pro",
+    "elf": "build/go_foc_dv6_pro/go_foc_dv6_pro.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/go_foc_dv6_pro/go_foc_dv6_pro.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "go_foc_dv6_pro_no_limits",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_go_foc_dv6_pro_no_limits",
+    "elf": "build/go_foc_dv6_pro_no_limits/go_foc_dv6_pro_no_limits.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/go_foc_dv6_pro_no_limits/go_foc_dv6_pro_no_limits.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "go_foc_g300",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_go_foc_g300",
+    "elf": "build/go_foc_g300/go_foc_g300.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/go_foc_g300/go_foc_g300.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "go_foc_g300_no_limits",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_go_foc_g300_no_limits",
+    "elf": "build/go_foc_g300_no_limits/go_foc_g300_no_limits.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/go_foc_g300_no_limits/go_foc_g300_no_limits.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "go_foc_hi200",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_go_foc_hi200",
+    "elf": "build/go_foc_hi200/go_foc_hi200.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/go_foc_hi200/go_foc_hi200.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "go_foc_hi200_no_limits",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_go_foc_hi200_no_limits",
+    "elf": "build/go_foc_hi200_no_limits/go_foc_hi200_no_limits.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/go_foc_hi200_no_limits/go_foc_hi200_no_limits.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "go_foc_hv200",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_go_foc_hv200",
+    "elf": "build/go_foc_hv200/go_foc_hv200.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/go_foc_hv200/go_foc_hv200.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "go_foc_hv200_no_limits",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_go_foc_hv200_no_limits",
+    "elf": "build/go_foc_hv200_no_limits/go_foc_hv200_no_limits.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/go_foc_hv200_no_limits/go_foc_hv200_no_limits.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "go_foc_m100",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_go_foc_m100",
+    "elf": "build/go_foc_m100/go_foc_m100.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/go_foc_m100/go_foc_m100.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "go_foc_m100_no_limits",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_go_foc_m100_no_limits",
+    "elf": "build/go_foc_m100_no_limits/go_foc_m100_no_limits.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/go_foc_m100_no_limits/go_foc_m100_no_limits.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "gp",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_gp",
+    "elf": "build/gp/gp.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/gp/gp.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "hd60",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_hd60",
+    "elf": "build/hd60/hd60.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/hd60/hd60.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "hd60_no_limits",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_hd60_no_limits",
+    "elf": "build/hd60_no_limits/hd60_no_limits.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/hd60_no_limits/hd60_no_limits.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "hd75",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_hd75",
+    "elf": "build/hd75/hd75.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/hd75/hd75.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "hd75_no_limits",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_hd75_no_limits",
+    "elf": "build/hd75_no_limits/hd75_no_limits.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/hd75_no_limits/hd75_no_limits.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "itr_x1",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_itr_x1",
+    "elf": "build/itr_x1/itr_x1.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/itr_x1/itr_x1.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "ka160",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_ka160",
+    "elf": "build/ka160/ka160.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/ka160/ka160.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "luna_bbshd",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_luna_bbshd",
+    "elf": "build/luna_bbshd/luna_bbshd.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/luna_bbshd/luna_bbshd.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "luna_m600",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_luna_m600",
+    "elf": "build/luna_m600/luna_m600.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/luna_m600/luna_m600.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "luna_m600_Rev5",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_luna_m600_Rev5",
+    "elf": "build/luna_m600_Rev5/luna_m600_Rev5.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/luna_m600_Rev5/luna_m600_Rev5.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "luna_m600_Rev5_60V",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_luna_m600_Rev5_60V",
+    "elf": "build/luna_m600_Rev5_60V/luna_m600_Rev5_60V.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/luna_m600_Rev5_60V/luna_m600_Rev5_60V.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "maxim_120",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_maxim_120",
+    "elf": "build/maxim_120/maxim_120.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/maxim_120/maxim_120.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "maxim_120_no_limits",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_maxim_120_no_limits",
+    "elf": "build/maxim_120_no_limits/maxim_120_no_limits.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/maxim_120_no_limits/maxim_120_no_limits.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "maxim_120_ph",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_maxim_120_ph",
+    "elf": "build/maxim_120_ph/maxim_120_ph.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/maxim_120_ph/maxim_120_ph.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "maxim_120_ph_no_limits",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_maxim_120_ph_no_limits",
+    "elf": "build/maxim_120_ph_no_limits/maxim_120_ph_no_limits.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/maxim_120_ph_no_limits/maxim_120_ph_no_limits.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "maxim_150",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_maxim_150",
+    "elf": "build/maxim_150/maxim_150.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/maxim_150/maxim_150.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "maxim_150_no_limits",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_maxim_150_no_limits",
+    "elf": "build/maxim_150_no_limits/maxim_150_no_limits.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/maxim_150_no_limits/maxim_150_no_limits.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "maxim_150_ph",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_maxim_150_ph",
+    "elf": "build/maxim_150_ph/maxim_150_ph.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/maxim_150_ph/maxim_150_ph.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "maxim_150_ph_no_limits",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_maxim_150_ph_no_limits",
+    "elf": "build/maxim_150_ph_no_limits/maxim_150_ph_no_limits.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/maxim_150_ph_no_limits/maxim_150_ph_no_limits.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "maximp_120",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_maximp_120",
+    "elf": "build/maximp_120/maximp_120.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/maximp_120/maximp_120.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "maximp_120_no_limits",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_maximp_120_no_limits",
+    "elf": "build/maximp_120_no_limits/maximp_120_no_limits.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/maximp_120_no_limits/maximp_120_no_limits.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "maximp_120_ph",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_maximp_120_ph",
+    "elf": "build/maximp_120_ph/maximp_120_ph.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/maximp_120_ph/maximp_120_ph.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "maximp_120_ph_no_limits",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_maximp_120_ph_no_limits",
+    "elf": "build/maximp_120_ph_no_limits/maximp_120_ph_no_limits.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/maximp_120_ph_no_limits/maximp_120_ph_no_limits.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "maximp_150",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_maximp_150",
+    "elf": "build/maximp_150/maximp_150.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/maximp_150/maximp_150.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "maximp_150_no_limits",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_maximp_150_no_limits",
+    "elf": "build/maximp_150_no_limits/maximp_150_no_limits.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/maximp_150_no_limits/maximp_150_no_limits.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "maximp_150_ph",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_maximp_150_ph",
+    "elf": "build/maximp_150_ph/maximp_150_ph.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/maximp_150_ph/maximp_150_ph.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "maximp_150_ph_no_limits",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_maximp_150_ph_no_limits",
+    "elf": "build/maximp_150_ph_no_limits/maximp_150_ph_no_limits.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/maximp_150_ph_no_limits/maximp_150_ph_no_limits.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "mbot",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_mbot",
+    "elf": "build/mbot/mbot.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/mbot/mbot.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "minim",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_minim",
+    "elf": "build/minim/minim.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/minim/minim.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "minim_no_limits",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_minim_no_limits",
+    "elf": "build/minim_no_limits/minim_no_limits.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/minim_no_limits/minim_no_limits.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "minim_w60",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_minim_w60",
+    "elf": "build/minim_w60/minim_w60.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/minim_w60/minim_w60.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "mksesc_100_300_hp",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_mksesc_100_300_hp",
+    "elf": "build/mksesc_100_300_hp/mksesc_100_300_hp.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/mksesc_100_300_hp/mksesc_100_300_hp.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "mksesc_100_300_hp_no_limits",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_mksesc_100_300_hp_no_limits",
+    "elf": "build/mksesc_100_300_hp_no_limits/mksesc_100_300_hp_no_limits.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/mksesc_100_300_hp_no_limits/mksesc_100_300_hp_no_limits.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "mksesc_75_100_old",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_mksesc_75_100_old",
+    "elf": "build/mksesc_75_100_old/mksesc_75_100_old.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/mksesc_75_100_old/mksesc_75_100_old.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "mksesc_75_100_old_no_limits",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_mksesc_75_100_old_no_limits",
+    "elf": "build/mksesc_75_100_old_no_limits/mksesc_75_100_old_no_limits.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/mksesc_75_100_old_no_limits/mksesc_75_100_old_no_limits.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "mksesc_75_100_v2",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_mksesc_75_100_v2",
+    "elf": "build/mksesc_75_100_v2/mksesc_75_100_v2.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/mksesc_75_100_v2/mksesc_75_100_v2.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "mksesc_75_100_v2_no_limits",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_mksesc_75_100_v2_no_limits",
+    "elf": "build/mksesc_75_100_v2_no_limits/mksesc_75_100_v2_no_limits.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/mksesc_75_100_v2_no_limits/mksesc_75_100_v2_no_limits.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "mksesc_75_100_v2_old",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_mksesc_75_100_v2_old",
+    "elf": "build/mksesc_75_100_v2_old/mksesc_75_100_v2_old.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/mksesc_75_100_v2_old/mksesc_75_100_v2_old.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "mksesc_75_100_v2_old_no_limits",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_mksesc_75_100_v2_old_no_limits",
+    "elf": "build/mksesc_75_100_v2_old_no_limits/mksesc_75_100_v2_old_no_limits.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/mksesc_75_100_v2_old_no_limits/mksesc_75_100_v2_old_no_limits.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "mksesc_75_200_v2",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_mksesc_75_200_v2",
+    "elf": "build/mksesc_75_200_v2/mksesc_75_200_v2.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/mksesc_75_200_v2/mksesc_75_200_v2.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "mksesc_75_200_v2_no_limits",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_mksesc_75_200_v2_no_limits",
+    "elf": "build/mksesc_75_200_v2_no_limits/mksesc_75_200_v2_no_limits.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/mksesc_75_200_v2_no_limits/mksesc_75_200_v2_no_limits.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "mksesc_75_200_v2_old",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_mksesc_75_200_v2_old",
+    "elf": "build/mksesc_75_200_v2_old/mksesc_75_200_v2_old.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/mksesc_75_200_v2_old/mksesc_75_200_v2_old.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "mksesc_75_200_v2_old_no_limits",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_mksesc_75_200_v2_old_no_limits",
+    "elf": "build/mksesc_75_200_v2_old_no_limits/mksesc_75_200_v2_old_no_limits.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/mksesc_75_200_v2_old_no_limits/mksesc_75_200_v2_old_no_limits.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "mksesc_84_100_hp",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_mksesc_84_100_hp",
+    "elf": "build/mksesc_84_100_hp/mksesc_84_100_hp.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/mksesc_84_100_hp/mksesc_84_100_hp.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "mksesc_84_100_hp_no_limits",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_mksesc_84_100_hp_no_limits",
+    "elf": "build/mksesc_84_100_hp_no_limits/mksesc_84_100_hp_no_limits.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/mksesc_84_100_hp_no_limits/mksesc_84_100_hp_no_limits.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "mksesc_84_200_hp",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_mksesc_84_200_hp",
+    "elf": "build/mksesc_84_200_hp/mksesc_84_200_hp.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/mksesc_84_200_hp/mksesc_84_200_hp.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "mksesc_84_200_hp_no_limits",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_mksesc_84_200_hp_no_limits",
+    "elf": "build/mksesc_84_200_hp_no_limits/mksesc_84_200_hp_no_limits.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/mksesc_84_200_hp_no_limits/mksesc_84_200_hp_no_limits.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "pronto",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_pronto",
+    "elf": "build/pronto/pronto.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/pronto/pronto.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "pronto_no_limits",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_pronto_no_limits",
+    "elf": "build/pronto_no_limits/pronto_no_limits.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/pronto_no_limits/pronto_no_limits.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "r2",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_r2",
+    "elf": "build/r2/r2.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/r2/r2.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "raiden7",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_raiden7",
+    "elf": "build/raiden7/raiden7.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/raiden7/raiden7.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "rb",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_rb",
+    "elf": "build/rb/rb.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/rb/rb.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "solo",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_solo",
+    "elf": "build/solo/solo.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/solo/solo.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "solo_no_limits",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_solo_no_limits",
+    "elf": "build/solo_no_limits/solo_no_limits.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/solo_no_limits/solo_no_limits.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "sparkf",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_sparkf",
+    "elf": "build/sparkf/sparkf.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/sparkf/sparkf.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "spesc",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_spesc",
+    "elf": "build/spesc/spesc.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/spesc/spesc.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "stormcore_100d",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_stormcore_100d",
+    "elf": "build/stormcore_100d/stormcore_100d.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/stormcore_100d/stormcore_100d.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "stormcore_100d_no_limits",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_stormcore_100d_no_limits",
+    "elf": "build/stormcore_100d_no_limits/stormcore_100d_no_limits.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/stormcore_100d_no_limits/stormcore_100d_no_limits.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "stormcore_100d_parallel",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_stormcore_100d_parallel",
+    "elf": "build/stormcore_100d_parallel/stormcore_100d_parallel.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/stormcore_100d_parallel/stormcore_100d_parallel.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "stormcore_100d_v2",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_stormcore_100d_v2",
+    "elf": "build/stormcore_100d_v2/stormcore_100d_v2.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/stormcore_100d_v2/stormcore_100d_v2.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "stormcore_100d_v2_no_limits",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_stormcore_100d_v2_no_limits",
+    "elf": "build/stormcore_100d_v2_no_limits/stormcore_100d_v2_no_limits.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/stormcore_100d_v2_no_limits/stormcore_100d_v2_no_limits.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "stormcore_100dx",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_stormcore_100dx",
+    "elf": "build/stormcore_100dx/stormcore_100dx.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/stormcore_100dx/stormcore_100dx.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "stormcore_100dx_no_limits",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_stormcore_100dx_no_limits",
+    "elf": "build/stormcore_100dx_no_limits/stormcore_100dx_no_limits.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/stormcore_100dx_no_limits/stormcore_100dx_no_limits.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "stormcore_100dx_parallel",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_stormcore_100dx_parallel",
+    "elf": "build/stormcore_100dx_parallel/stormcore_100dx_parallel.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/stormcore_100dx_parallel/stormcore_100dx_parallel.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "stormcore_100s",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_stormcore_100s",
+    "elf": "build/stormcore_100s/stormcore_100s.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/stormcore_100s/stormcore_100s.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "stormcore_100s_no_limits",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_stormcore_100s_no_limits",
+    "elf": "build/stormcore_100s_no_limits/stormcore_100s_no_limits.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/stormcore_100s_no_limits/stormcore_100s_no_limits.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "stormcore_60d",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_stormcore_60d",
+    "elf": "build/stormcore_60d/stormcore_60d.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/stormcore_60d/stormcore_60d.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "stormcore_60d+",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_stormcore_60d+",
+    "elf": "build/stormcore_60d+/stormcore_60d+.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/stormcore_60d+/stormcore_60d+.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "stormcore_60d+_no_limits",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_stormcore_60d+_no_limits",
+    "elf": "build/stormcore_60d+_no_limits/stormcore_60d+_no_limits.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/stormcore_60d+_no_limits/stormcore_60d+_no_limits.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "stormcore_60d_no_limits",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_stormcore_60d_no_limits",
+    "elf": "build/stormcore_60d_no_limits/stormcore_60d_no_limits.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/stormcore_60d_no_limits/stormcore_60d_no_limits.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "stormcore_60dxs",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_stormcore_60dxs",
+    "elf": "build/stormcore_60dxs/stormcore_60dxs.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/stormcore_60dxs/stormcore_60dxs.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "stormcore_60dxs_no_limits",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_stormcore_60dxs_no_limits",
+    "elf": "build/stormcore_60dxs_no_limits/stormcore_60dxs_no_limits.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/stormcore_60dxs_no_limits/stormcore_60dxs_no_limits.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "str365",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_str365",
+    "elf": "build/str365/str365.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/str365/str365.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "str365_150",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_str365_150",
+    "elf": "build/str365_150/str365_150.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/str365_150/str365_150.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "str365_150_no_limits",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_str365_150_no_limits",
+    "elf": "build/str365_150_no_limits/str365_150_no_limits.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/str365_150_no_limits/str365_150_no_limits.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "str365_no_limits",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_str365_no_limits",
+    "elf": "build/str365_no_limits/str365_no_limits.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/str365_no_limits/str365_no_limits.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "str500",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_str500",
+    "elf": "build/str500/str500.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/str500/str500.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "str500_01",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_str500_01",
+    "elf": "build/str500_01/str500_01.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/str500_01/str500_01.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "str500_hp",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_str500_hp",
+    "elf": "build/str500_hp/str500_hp.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/str500_hp/str500_hp.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "str500_hp_no_limits",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_str500_hp_no_limits",
+    "elf": "build/str500_hp_no_limits/str500_hp_no_limits.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/str500_hp_no_limits/str500_hp_no_limits.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "str500_no_limits",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_str500_no_limits",
+    "elf": "build/str500_no_limits/str500_no_limits.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/str500_no_limits/str500_no_limits.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "ubox_126_100",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_ubox_126_100",
+    "elf": "build/ubox_126_100/ubox_126_100.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/ubox_126_100/ubox_126_100.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "ubox_126_100_no_limits",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_ubox_126_100_no_limits",
+    "elf": "build/ubox_126_100_no_limits/ubox_126_100_no_limits.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/ubox_126_100_no_limits/ubox_126_100_no_limits.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "ubox_126_160",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_ubox_126_160",
+    "elf": "build/ubox_126_160/ubox_126_160.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/ubox_126_160/ubox_126_160.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "ubox_126_160_no_limits",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_ubox_126_160_no_limits",
+    "elf": "build/ubox_126_160_no_limits/ubox_126_160_no_limits.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/ubox_126_160_no_limits/ubox_126_160_no_limits.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "ubox_single_100",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_ubox_single_100",
+    "elf": "build/ubox_single_100/ubox_single_100.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/ubox_single_100/ubox_single_100.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "ubox_single_100_no_limits",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_ubox_single_100_no_limits",
+    "elf": "build/ubox_single_100_no_limits/ubox_single_100_no_limits.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/ubox_single_100_no_limits/ubox_single_100_no_limits.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "ubox_single_75",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_ubox_single_75",
+    "elf": "build/ubox_single_75/ubox_single_75.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/ubox_single_75/ubox_single_75.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "ubox_single_75_no_limits",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_ubox_single_75_no_limits",
+    "elf": "build/ubox_single_75_no_limits/ubox_single_75_no_limits.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/ubox_single_75_no_limits/ubox_single_75_no_limits.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "ubox_single_80",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_ubox_single_80",
+    "elf": "build/ubox_single_80/ubox_single_80.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/ubox_single_80/ubox_single_80.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "ubox_single_80_no_limits",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_ubox_single_80_no_limits",
+    "elf": "build/ubox_single_80_no_limits/ubox_single_80_no_limits.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/ubox_single_80_no_limits/ubox_single_80_no_limits.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "ubox_single_85_200",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_ubox_single_85_200",
+    "elf": "build/ubox_single_85_200/ubox_single_85_200.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/ubox_single_85_200/ubox_single_85_200.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "ubox_single_85_200_no_limits",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_ubox_single_85_200_no_limits",
+    "elf": "build/ubox_single_85_200_no_limits/ubox_single_85_200_no_limits.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/ubox_single_85_200_no_limits/ubox_single_85_200_no_limits.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "ubox_v1_75_micro",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_ubox_v1_75_micro",
+    "elf": "build/ubox_v1_75_micro/ubox_v1_75_micro.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/ubox_v1_75_micro/ubox_v1_75_micro.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "ubox_v1_75_micro_no_limits",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_ubox_v1_75_micro_no_limits",
+    "elf": "build/ubox_v1_75_micro_no_limits/ubox_v1_75_micro_no_limits.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/ubox_v1_75_micro_no_limits/ubox_v1_75_micro_no_limits.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "ubox_v1_75_typec",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_ubox_v1_75_typec",
+    "elf": "build/ubox_v1_75_typec/ubox_v1_75_typec.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/ubox_v1_75_typec/ubox_v1_75_typec.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "ubox_v1_75_typec_no_limits",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_ubox_v1_75_typec_no_limits",
+    "elf": "build/ubox_v1_75_typec_no_limits/ubox_v1_75_typec_no_limits.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/ubox_v1_75_typec_no_limits/ubox_v1_75_typec_no_limits.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "ubox_v2_100",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_ubox_v2_100",
+    "elf": "build/ubox_v2_100/ubox_v2_100.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/ubox_v2_100/ubox_v2_100.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "ubox_v2_100_no_limits",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_ubox_v2_100_no_limits",
+    "elf": "build/ubox_v2_100_no_limits/ubox_v2_100_no_limits.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/ubox_v2_100_no_limits/ubox_v2_100_no_limits.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "ubox_v2_75",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_ubox_v2_75",
+    "elf": "build/ubox_v2_75/ubox_v2_75.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/ubox_v2_75/ubox_v2_75.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "ubox_v2_75_no_limits",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_ubox_v2_75_no_limits",
+    "elf": "build/ubox_v2_75_no_limits/ubox_v2_75_no_limits.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/ubox_v2_75_no_limits/ubox_v2_75_no_limits.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "unity",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_unity",
+    "elf": "build/unity/unity.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/unity/unity.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "unity_no_limits",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_unity_no_limits",
+    "elf": "build/unity_no_limits/unity_no_limits.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/unity_no_limits/unity_no_limits.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "warrior6",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_warrior6",
+    "elf": "build/warrior6/warrior6.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/warrior6/warrior6.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "x12_pro24",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_x12_pro24",
+    "elf": "build/x12_pro24/x12_pro24.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/x12_pro24/x12_pro24.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  },
+  {
+    "target_name": "x12_pro30",
+    "setup_cmd": "sudo apt-get update -qq && sudo apt-get install -y -qq wget bzip2 make && make arm_sdk_install",
+    "build_cmd": "make fw_x12_pro30",
+    "elf": "build/x12_pro30/x12_pro30.elf",
+    "ld": "ld_eeprom_emu.ld",
+    "map_file": "build/x12_pro30/x12_pro30.map",
+    "linker_vars": "__main_stack_size__=0x800 __process_stack_size__=0x800"
+  }
+]

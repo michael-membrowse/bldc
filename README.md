@@ -7,6 +7,7 @@
 [![Watchers](https://img.shields.io/github/watchers/vedderb/bldc.svg)](https://github.com/vedderb/bldc/watchers)
 [![Stars](https://img.shields.io/github/stars/vedderb/bldc.svg)](https://github.com/vedderb/bldc/stargazers)
 [![Forks](https://img.shields.io/github/forks/vedderb/bldc.svg)](https://github.com/vedderb/bldc/network/members)
+[![MemBrowse](https://membrowse.com/badge.svg)](https://membrowse.com/public/vedderb/bldc)
 
 An open source motor controller firmware.
 
